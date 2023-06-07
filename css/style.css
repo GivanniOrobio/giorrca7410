@@ -147,10 +147,10 @@ label.error{
 .p-relative {
     position: relative;
 }
-.custom-container{
+/* .custom-container{
     padding-right: 100px;
     padding-left: 100px;
-}
+} */
 .before-none:before,
 .after-none:after,
 .none {
@@ -1397,7 +1397,7 @@ label.custom-checkbox .checkmark:after {
     display: block;
     width: 120px;
     left: 0;
-    position: absolute;
+    position: relative;
     height: 35px;
     z-index: 2;
     right: 0;
